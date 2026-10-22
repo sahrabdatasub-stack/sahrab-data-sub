@@ -1,0 +1,6 @@
+{
+  "name": "SAHRAB DATA SUB",
+  "description": "SAHRAB DATA SUB - Stay Connected, Stay Ahead. Secure Nigerian data, airtime, staff hierarchy, agent recruitment, sales tracking, and wallet engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

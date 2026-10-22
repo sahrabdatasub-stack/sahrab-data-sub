@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: sahrab-data-sub
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: MONNIFY_API_KEY
+        sync: false
+      - key: MONNIFY_SECRET_KEY
+        sync: false
+      - key: MONNIFY_CONTRACT_CODE
+        sync: false
+      - key: MONNIFY_BASE_URL
+        value: https://sandbox.monnify.com
